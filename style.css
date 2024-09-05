@@ -1,0 +1,115 @@
+ * {
+    margin: 0px;
+    font-family: 'inter';
+ }
+
+    /* Parte Superior do site */
+
+ .parte-superior {
+    background-color: #303030;
+    width: auto;
+    height: 440px;
+ }
+
+ .suptext {
+    padding-left: 62px; 
+    color: white;
+ }
+
+ #titulo-superior {
+    padding-top: 150px;
+    font-size: 60px;
+ }
+
+ #texto-superior {
+    font-size: 20px;
+ }
+
+
+    /* INFORMAÇÃO ABAIXO DO TITULO SUPERIOR */
+
+ #inf {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    height: 229px;
+    font-size: 20px;
+ }
+
+ .texto-inf {
+    padding-top: 60px;
+    padding-left: 170px;
+ }
+
+ /* CONTEUDO MEIO DA PAGINA */
+
+ #conteudo-meio {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+ }
+
+ #texto-meio {
+    margin-top: 300px;
+    padding-left: 150px;
+    
+ }
+
+ #titulo-meio {
+    font-size: 40px;
+ }
+ 
+ #texto {
+    padding-top: 40px;
+    font-size: 30px;
+
+ }
+
+ #imagem-meio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+ /* FORMULARIO */
+
+ #formulario {
+    background-color: #303030;
+    height: 638px;
+    text-align: center;
+
+ }
+
+ #texto-formulario {
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 140px;
+ }
+
+ input {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+ }
+
+ button {
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+ }
+
+ button:hover {
+    transform: scale(115%);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.5s ;
+ }
